@@ -93,6 +93,10 @@ header {
     font-size: 13px;
 }
 
+.buttom a:hover {
+    background-color: rgb(129, 129, 129);
+}
+
 #arrow {
     margin-left: -35px;
     color: rgb(255, 255, 255);
@@ -118,7 +122,6 @@ header {
     margin-top: 87px;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 /* content-2 */
@@ -141,6 +144,10 @@ header {
 
 .market span {
     margin-left: 30px;
+}
+
+#y-color {
+    color: #FB8200;
 }
 
 .market {
@@ -189,7 +196,7 @@ header {
 .last-button a {
     text-decoration: none;
     display: inline-block;
-    border: 1px solid red;
+    border: 1px solid #E02C6D;
     padding: 13px 40px 13px 13px;
     font-size: 16px;
     font-weight: 500;
@@ -211,7 +218,7 @@ header {
 
     width: 1890px;
     height: 200px;
-    background-color: rgb(36, 6, 36);
+    background-color: #0A0826;
     margin-top: 100px;
 }
 
@@ -233,9 +240,21 @@ header {
 .last-footer p {
     margin-top: 3px;
     font-size: 12px;
+    text-align: center;
+    margin-right: 30px;
 }
 
 .last-footer img {
     margin-top: 7px;
+    margin-left: 30px;
 
+}
+
+/*----------------------------------------
+     Responsive For Smartphone 
+-----------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+    .all-here {}
 }
