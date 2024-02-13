@@ -36,6 +36,10 @@ header {
 
 }
 
+.link-info a:hover {
+    color: red;
+}
+
 .link-info a {
     font-size: 15px;
     color: rgb(73, 73, 73);
@@ -84,10 +88,17 @@ header {
     color: white;
     border: rgb(250, 110, 110) solid 1px;
     background-color: rgb(250, 91, 91);
-    padding: 13px;
+    padding: 13px 40px 13px 13px;
     border-radius: 45px;
     font-size: 13px;
 }
+
+#arrow {
+    margin-left: -35px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
 
 .header img {
     width: 475px;
@@ -140,4 +151,91 @@ header {
 
 .market:hover {
     background-color: antiquewhite;
+}
+
+.see-more {
+    color: rgb(255, 78, 78);
+    position: relative;
+    left: 977px;
+}
+
+#arrow-2 {
+    color: rgb(245, 56, 56);
+    position: relative;
+    left: 690px;
+    bottom: -20px;
+}
+
+/* content-3 */
+
+.content-3 {
+    width: 1110px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 350px;
+}
+
+.last-info {
+    width: 610px;
+    margin-left: 100px;
+}
+
+.last-info h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(9, 9, 53);
+}
+
+.last-button a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 13px 40px 13px 13px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #E02C6D;
+}
+
+#last-id {
+    color: whitesmoke;
+}
+
+#arrow-right {
+    position: relative;
+    left: -30px;
+    color: whitesmoke;
+}
+
+/* footer */
+.footer {
+
+    width: 1890px;
+    height: 200px;
+    background-color: rgb(36, 6, 36);
+    margin-top: 100px;
+}
+
+.last-footer {
+    width: 262px;
+    height: 140px;
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 589px 70px 589px;
+}
+
+.last-footer h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.last-footer p {
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.last-footer img {
+    margin-top: 7px;
+
 }
